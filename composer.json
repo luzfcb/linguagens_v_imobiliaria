@@ -1,0 +1,14 @@
+{
+    "name": "fabiodev/gerenciadoimoveis",
+    "description": "gerenciador simples de imoveis",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Fabio",
+            "email": "bnafta@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "1.6.5"
+    }
+}
