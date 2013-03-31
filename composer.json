@@ -9,6 +9,8 @@
         }
     ],
     "require": {
-        "twig/twig": "1.6.5"
+        "twig/twig": "1.6.5",
+        "doctrine/orm": "2.3.3",
+        "symfony/yaml": "v2.1.9"
     }
 }

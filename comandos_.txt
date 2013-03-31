@@ -1,0 +1,10 @@
+
+
+//instalar pacotes
+composer.phar install
+
+//criar models do banco utilizando yaml
+vendor/bin/doctrine orm:convert-mapping yml ./apps/imobiliaria/models/ --from-database --force
+
+//criar models do banco utilizando anotacoes doctrine
+vendor/bin/doctrine orm:convert-mapping annotation ./apps/imobiliaria/models/ --from-database --force

@@ -10,7 +10,7 @@
  */
 
 /**
- * Represents a templates test as a Node.
+ * Represents a template test as a Node.
  *
  * @package    twig
  * @author     Fabien Potencier <fabien@symfony.com>

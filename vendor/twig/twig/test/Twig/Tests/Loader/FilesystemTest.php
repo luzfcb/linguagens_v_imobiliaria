@@ -22,7 +22,7 @@ class Twig_Tests_Loader_FilesystemTest extends PHPUnit_Framework_TestCase
             $loader->getCacheKey($template);
             $this->fail();
         } catch (Twig_Error_Loader $e) {
-            $this->assertNotContains('Unable to find templates', $e->getMessage());
+            $this->assertNotContains('Unable to find template', $e->getMessage());
         }
     }
 

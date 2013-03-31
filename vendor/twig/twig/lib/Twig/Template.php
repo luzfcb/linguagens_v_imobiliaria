@@ -39,9 +39,9 @@ abstract class Twig_Template implements Twig_TemplateInterface
     }
 
     /**
-     * Returns the templates name.
+     * Returns the template name.
      *
-     * @return string The templates name
+     * @return string The template name
      */
     abstract public function getTemplateName();
 
@@ -54,12 +54,12 @@ abstract class Twig_Template implements Twig_TemplateInterface
     }
 
     /**
-     * Returns the parent templates.
+     * Returns the parent template.
      *
      * This method is for internal use only and should never be called
      * directly.
      *
-     * @return Twig_TemplateInterface|false The parent templates or false if there is no parent
+     * @return Twig_TemplateInterface|false The parent template or false if there is no parent
      */
     public function getParent(array $context)
     {
@@ -110,7 +110,7 @@ abstract class Twig_Template implements Twig_TemplateInterface
         } elseif (false !== $parent = $this->getParent($context)) {
             $parent->displayBlock($name, $context, $blocks);
         } else {
-            throw new Twig_Error_Runtime(sprintf('The templates has no parent and no traits defining the "%s" block', $name), -1, $this->getTemplateName());
+            throw new Twig_Error_Runtime(sprintf('The template has no parent and no traits defining the "%s" block', $name), -1, $this->getTemplateName());
         }
     }
 
@@ -185,11 +185,11 @@ abstract class Twig_Template implements Twig_TemplateInterface
      * This method is for internal use only and should never be called
      * directly.
      *
-     * This method does only return blocks defined in the current templates
+     * This method does only return blocks defined in the current template
      * or defined in "used" traits.
      *
      * It does not return blocks from parent templates as the parent
-     * templates name can be dynamic, which is only known based on the
+     * template name can be dynamic, which is only known based on the
      * current context.
      *
      * @param string $name The block name
@@ -279,15 +279,15 @@ abstract class Twig_Template implements Twig_TemplateInterface
         } catch (Twig_Error $e) {
             throw $e;
         } catch (Exception $e) {
-            throw new Twig_Error_Runtime(sprintf('An exception has been thrown during the rendering of a templates ("%s").', $e->getMessage()), -1, null, $e);
+            throw new Twig_Error_Runtime(sprintf('An exception has been thrown during the rendering of a template ("%s").', $e->getMessage()), -1, null, $e);
         }
     }
 
     /**
-     * Auto-generated method to display the templates with the given context.
+     * Auto-generated method to display the template with the given context.
      *
-     * @param array $context An array of parameters to pass to the templates
-     * @param array $blocks  An array of blocks to pass to the templates
+     * @param array $context An array of parameters to pass to the template
+     * @param array $blocks  An array of blocks to pass to the template
      */
     abstract protected function doDisplay(array $context, array $blocks = array());
 

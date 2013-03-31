@@ -56,8 +56,8 @@ class Twig_Tests_Node_IncludeTest extends Twig_Tests_Node_TestCase
                     );
         $node = new Twig_Node_Include($expr, null, false, false, 0);
         $tests[] = array($node, <<<EOF
-\$templates = \$this->env->resolveTemplate(((true) ? ("foo") : ("foo")));
-\$templates->display(\$context);
+\$template = \$this->env->resolveTemplate(((true) ? ("foo") : ("foo")));
+\$template->display(\$context);
 EOF
         );
 
@@ -74,7 +74,7 @@ EOF
 try {
     \$this->env->loadTemplate("foo.twig")->display(array("foo" => true));
 } catch (Twig_Error_Loader \$e) {
-    // ignore missing templates
+    // ignore missing template
 }
 EOF
         );
