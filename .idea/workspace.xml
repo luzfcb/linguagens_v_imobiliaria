@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" name="Default" comment="sofrendo com namespace">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/velhos/config/Conexao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/velhos/controller/Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/velhos/model/models.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.php" afterPath="$PROJECT_DIR$/bootstrap.php" />
+    <list default="true" id="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/imobiliaria/index.php" afterPath="$PROJECT_DIR$/apps/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banco_modelagem/imoveis.mwb.bak" afterPath="$PROJECT_DIR$/banco_modelagem/imoveis.mwb.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banco_modelagem/imoveis.mwb" afterPath="$PROJECT_DIR$/banco_modelagem/imoveis.mwb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php" afterPath="$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/tools/basemodels.php" afterPath="$PROJECT_DIR$/apps/tools/basemodels.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php" afterPath="$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="linguagens3_novo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Imovel.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364771701753" ignored="false" />
     <file path="/dummy.txt" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364779464155" ignored="false" />
-    <file path="/index.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364776773424" ignored="false" />
+    <file path="/index.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364799325496" ignored="false" />
     <file path="/View.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364604020021" ignored="false" />
-    <file path="/Dummy.txt" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364777607210" ignored="false" />
+    <file path="/Dummy.txt" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364789279952" ignored="false" />
     <file path="/hello.html" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364586631687" ignored="false" />
     <file path="/teste.twig" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364598452852" ignored="false" />
     <file path="/a.dummy" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364776789869" ignored="false" />
@@ -25,18 +27,18 @@
     <file path="/composer.json" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364745790337" ignored="false" />
     <file path="/bootstrap.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364779008045" ignored="false" />
     <file path="/comandos_.txt" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364766930501" ignored="false" />
-    <file path="/basemodels.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364772337211" ignored="false" />
+    <file path="/basemodels.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364792461410" ignored="false" />
     <file path="/Contato.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364772456700" ignored="false" />
     <file path="/genericdao.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364769664938" ignored="false" />
-    <file path="/twig_obtect_to_template.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364770534272" ignored="false" />
+    <file path="/twig_obtect_to_template.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364798981725" ignored="false" />
     <file path="/base.html" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364770721139" ignored="false" />
     <file path="/base.twig" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364770908693" ignored="false" />
     <file path="/index.twig" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364771183260" ignored="false" />
     <file path="/Endereco.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364771678082" ignored="false" />
     <file path="/Estado.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364771686442" ignored="false" />
     <file path="/Imagem.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364779337821" ignored="false" />
-    <file path="/Proprietario.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364771708143" ignored="false" />
-    <file path="/TipoImovel.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364776653941" ignored="false" />
+    <file path="/Proprietario.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364795361496" ignored="false" />
+    <file path="/TipoImovel.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364792702693" ignored="false" />
     <file path="/TipoNegocio.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364772764680" ignored="false" />
     <file path="/README" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364780721187" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,11 +69,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/imobiliaria/index.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="0" selection-start="1937" selection-end="2074" vertical-scroll-proportion="-16.25">
+            <state line="9" column="24" selection-start="215" selection-end="215" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.29151943">
               <folding>
-                <element signature="e#6#112#0" expanded="true" />
+                <element signature="e#273#307#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,19 +91,10 @@
       <file leaf-file-name="twig_obtect_to_template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="13" selection-start="463" selection-end="463" vertical-scroll-proportion="-9.75">
+            <state line="6" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.75">
               <folding>
                 <element signature="e#6#112#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="124" selection-end="141" vertical-scroll-proportion="-1.875">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -100,54 +102,46 @@
       <file leaf-file-name="TipoImovel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="32" selection-start="452" selection-end="452" vertical-scroll-proportion="-13.75">
+            <state line="19" column="33" selection-start="425" selection-end="425" vertical-scroll-proportion="-11.875">
               <folding>
                 <element signature="e#6#112#0" expanded="true" />
-                <element signature="e#271#310#0" expanded="true" />
+                <element signature="e#275#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basemodels.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/tools/basemodels.php">
+      <file leaf-file-name="Proprietario.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Proprietario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="52" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-12.5">
-              <folding>
-                <element signature="e#6#112#0" expanded="true" />
-                <element signature="e#142#162#0" expanded="true" />
-              </folding>
+            <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.75">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/Entities/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="617" selection-end="617" vertical-scroll-proportion="-11.625">
-              <folding>
-                <element signature="e#114#143#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Imagem.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Imagem.php">
+      <file leaf-file-name="Contato.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Contato.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="150" selection-end="150" vertical-scroll-proportion="-6.25">
-              <folding>
-                <element signature="e#6#112#0" expanded="true" />
-                <element signature="e#146#185#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README">
+      <file leaf-file-name="Endereco.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Endereco.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="141" selection-end="141" vertical-scroll-proportion="0.08797654">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -197,28 +191,25 @@
       <MyDateState />
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/apps/imobiliaria/templates/base.html" />
-        <option value="$PROJECT_DIR$/apps/imobiliaria/templates/base.twig" />
         <option value="$PROJECT_DIR$/apps/imobiliaria/templates/index.twig" />
-        <option value="$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php" />
         <option value="$PROJECT_DIR$/apps/imobiliaria/models/Contato.php" />
         <option value="$PROJECT_DIR$/apps/imobiliaria/models/Endereco.php" />
         <option value="$PROJECT_DIR$/apps/imobiliaria/models/Estado.php" />
         <option value="$PROJECT_DIR$/apps/imobiliaria/models/Imovel.php" />
-        <option value="$PROJECT_DIR$/apps/imobiliaria/models/Proprietario.php" />
         <option value="$PROJECT_DIR$/apps/imobiliaria/models/TipoNegocio.php" />
-        <option value="$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php" />
-        <option value="$PROJECT_DIR$/apps/imobiliaria/index.php" />
-        <option value="$PROJECT_DIR$/apps/tools/basemodels.php" />
         <option value="$PROJECT_DIR$/bootstrap.php" />
-        <option value="$PROJECT_DIR$/apps/imobiliaria/models/Imagem.php" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/apps/imobiliaria/models/Imagem.php" />
+        <option value="$PROJECT_DIR$/apps/tools/basemodels.php" />
+        <option value="$PROJECT_DIR$/apps/imobiliaria/models/Proprietario.php" />
+        <option value="$PROJECT_DIR$/apps/imobiliaria/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php" />
+        <option value="$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php" />
+        <option value="$PROJECT_DIR$/apps/index.php" />
       </list>
     </option>
   </component>
@@ -238,10 +229,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
-    <option name="width" value="1442" />
-    <option name="height" value="875" />
+    <option name="y" value="24" />
+    <option name="width" value="1440" />
+    <option name="height" value="846" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -546,6 +536,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linguagens3_novo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linguagens3_novo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linguagens3_novo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linguagens3_novo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -553,13 +575,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="local_host_server" serverId="241a5425-05ce-457d-8515-cacc88df8a61">
     <servers>
@@ -577,11 +599,11 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/apps/imobiliaria" />
       <recent name="$PROJECT_DIR$/apps/tools" />
       <recent name="$PROJECT_DIR$/apps/velhos" />
-      <recent name="$PROJECT_DIR$/apps" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.Deploy_remoto">
@@ -664,7 +686,11 @@
       <created>1364777409566</created>
       <updated>1364777409566</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sofrendo com namespace2">
+      <created>1364780760201</created>
+      <updated>1364780760201</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -688,30 +714,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1442" height="875" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="24" width="1440" height="846" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12620027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12620027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6735254" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6735254" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23457676" sideWeight="0.6735254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23816356" sideWeight="0.87379974" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32235938" sideWeight="0.99856526" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32235938" sideWeight="0.99856526" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -756,7 +782,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="sofrendo com namespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="sofrendo com namespace2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -772,66 +798,106 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="inicio" />
     <MESSAGE value="sofrendo com namespace" />
+    <MESSAGE value="sofrendo com namespace2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Estado.php">
+    <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="-5.625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.8372433" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="90" selection-end="90" vertical-scroll-proportion="0.09118541" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.2385159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tools/basemodels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="768" selection-end="768" vertical-scroll-proportion="0.51107323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#6#112#0" expanded="true" />
+            <element signature="e#6#260#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Imovel.php">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/yaml/Entities.User.dcm.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="184" selection-end="184" vertical-scroll-proportion="-5.625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/Entities/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Endereco.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Contato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2279153">
           <folding>
-            <element signature="e#6#112#0" expanded="true" />
+            <element signature="e#1014#1050#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/OneToMany.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0795053">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Proprietario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="e#6#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/TipoNegocio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="e#6#112#0" expanded="true" />
-          </folding>
+        <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.75">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="124" selection-end="141" vertical-scroll-proportion="-1.875">
+        <state line="9" column="24" selection-start="215" selection-end="215" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="463" selection-end="463" vertical-scroll-proportion="-9.75">
-          <folding>
-            <element signature="e#6#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="1937" selection-end="2074" vertical-scroll-proportion="-16.25">
+        <state line="6" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.75">
           <folding>
             <element signature="e#6#112#0" expanded="true" />
           </folding>
@@ -840,75 +906,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="452" selection-end="452" vertical-scroll-proportion="-13.75">
+        <state line="19" column="33" selection-start="425" selection-end="425" vertical-scroll-proportion="-11.875">
           <folding>
             <element signature="e#6#112#0" expanded="true" />
-            <element signature="e#271#310#0" expanded="true" />
+            <element signature="e#275#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index4.php">
+    <entry file="file://$PROJECT_DIR$/apps/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4662162">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tools/basemodels.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="52" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-12.5">
+        <state line="15" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.29151943">
           <folding>
-            <element signature="e#6#112#0" expanded="true" />
-            <element signature="e#142#162#0" expanded="true" />
+            <element signature="e#273#307#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/XmlDriver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="20" selection-start="1780" selection-end="1780" vertical-scroll-proportion="-2.8317072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="20" selection-start="4631" selection-end="4631" vertical-scroll-proportion="3.9007092">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="59" selection-start="4338" selection-end="4338" vertical-scroll-proportion="0.4361949">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="617" selection-end="617" vertical-scroll-proportion="-11.625">
-          <folding>
-            <element signature="e#114#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Imagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="150" selection-end="150" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="e#6#112#0" expanded="true" />
-            <element signature="e#146#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="141" selection-end="141" vertical-scroll-proportion="0.08797654">
-          <folding />
         </state>
       </provider>
     </entry>

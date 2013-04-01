@@ -8,8 +8,8 @@
 namespace tools\basemodels;
 use ReflectionClass;
 use ReflectionProperty;
-$porcaria_de_namespace = $GLOBALS['ROOT_PROJECT_PATH'] . '/apps/tools/twig_obtect_to_template.php';
-require_once($porcaria_de_namespace);
+//$porcaria_de_namespace = $GLOBALS['ROOT_PROJECT_PATH'] . '/apps/tools/twig_obtect_to_template.php';
+//require_once($porcaria_de_namespace);
 
 interface InterfaceBaseModel{
 
@@ -33,7 +33,7 @@ abstract class AbstractBaseModel implements InterfaceBaseModel{
             $prop->setAccessible(true);
             //echo $prop->getName() . 'parente class_name_is: ' . get_parent_class($prop->getValue($this)) . '</br></br>' ;
             $valor_atual = $prop->getValue($this);
-            if($this instanceof InterfaceBaseModel){
+            if($valor_atual instanceof InterfaceBaseModel){
 
                 $valor_atual = $valor_atual->to_array_recursively();
             }

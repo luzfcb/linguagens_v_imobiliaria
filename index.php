@@ -6,5 +6,5 @@
  */
 
 $GLOBALS['ROOT_PROJECT_PATH'] = __DIR__;
-
-include_once 'apps/imobiliaria/index.php';
+require_once 'vendor/autoload.php';
+require_once 'apps/index.php';

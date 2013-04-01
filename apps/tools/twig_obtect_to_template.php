@@ -4,7 +4,7 @@
  * Data: 29/03/13
  * Horario: 13:11
  */
-
+namespace tools\Twig_tool;
 
 use tools\basemodels\InterfaceBaseModel;
 

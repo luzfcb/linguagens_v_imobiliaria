@@ -11,7 +11,8 @@
 //spl_autoload_register(function ($class) {
 //    require_once(str_replace('\\', '/', $class . '.php'));
 //});
-require_once $GLOBALS['ROOT_PROJECT_PATH'] . '/vendor/autoload.php';
+use Imobiliaria\Models\TipoImovel;
+use tools\Twig_tool\TwigViewBase;
 
 $GLOBALS['APP_PATH'] = __DIR__;
 
@@ -62,9 +63,11 @@ function getClassAnnotations($class)
 
 
 
-require_once('models/TipoImovel.php');
+//require_once('models/TipoImovel.php');
 
-$tipo_imovel = new imobiliaria\models\TipoImovel();
+
+
+$tipo_imovel = new TipoImovel();
 $tipo_imovel->setDescricaoTipoImovel('Cobertura cara');
 
 
@@ -87,8 +90,9 @@ $tipo_imovel->setDescricaoTipoImovel('Cobertura cara');
 //);
 
 
-$porcaria_de_namespace = $GLOBALS['ROOT_PROJECT_PATH'] . '/apps/tools/twig_obtect_to_template.php';
-require_once($porcaria_de_namespace);
+//$porcaria_de_namespace = $GLOBALS['ROOT_PROJECT_PATH'] . '/apps/tools/twig_obtect_to_template.php';
+//require_once($porcaria_de_namespace);
+
 
 $view = new TwigViewBase(null, $use_cache = false);
 

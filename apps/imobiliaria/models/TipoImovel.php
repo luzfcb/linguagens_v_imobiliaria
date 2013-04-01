@@ -6,11 +6,11 @@
  */
 
 
-namespace imobiliaria\models;
-$porcaria_de_namespace = $GLOBALS['ROOT_PROJECT_PATH']. '/apps/tools/basemodels.php';
-require_once($porcaria_de_namespace );
+namespace Imobiliaria\Models;
+//$porcaria_de_namespace = $GLOBALS['ROOT_PROJECT_PATH']. '/apps/tools/basemodels.php';
+//require_once($porcaria_de_namespace );
 
-use tools\basemodels\AbstractBaseModel;
+use tools\basemodels\AbstractBaseModel as AbstractBaseModel;
 use Doctrine\ORM\Mapping as ORM;
 
 
