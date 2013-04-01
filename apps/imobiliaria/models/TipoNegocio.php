@@ -8,7 +8,7 @@
 
 namespace imobiliaria\models;
 
-use tools\basemodels;
+use tools\basemodels\AbstractBaseModel;
 use Doctrine\ORM\Mapping as ORM;
 
 /**

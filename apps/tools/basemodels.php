@@ -8,7 +8,8 @@
 namespace tools\basemodels;
 use ReflectionClass;
 use ReflectionProperty;
-
+$porcaria_de_namespace = $GLOBALS['ROOT_PROJECT_PATH'] . '/apps/tools/twig_obtect_to_template.php';
+require_once($porcaria_de_namespace);
 
 interface InterfaceBaseModel{
 
