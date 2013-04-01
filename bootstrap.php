@@ -17,12 +17,19 @@ require_once "vendor/autoload.php";
 $paths = array("/home/oficina/PhpstormProjects/linguagens3_novo/apps/imobiliaria/models");
 
 $isDevMode = false;
+//$dbParams = array(
+  //'driver'   => 'pdo_mysql',
+  //'user'     => 'root',
+  //'password' => '123123',
+  //'dbname'   => 'imobiliaria',
+//);
+
 $dbParams = array(
-    'driver'   => 'pdo_mysql',
-  'user'     => 'root',
-  'password' => '123123',
-  'dbname'   => 'imobiliaria',
+    'driver' => 'pdo_sqlite',
+    'path' => 'database.sqlite',
 );
+
+
 
 // Set up an Entity Manager
 // ACHTUNG: The following line is different from the
