@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/index.php" afterPath="$PROJECT_DIR$/apps/index_velho.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/index.php" afterPath="$PROJECT_DIR$/apps/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="linguagens3_novo.iws" />
@@ -10,7 +12,7 @@
     <file path="/dummy.txt" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364779464155" ignored="false" />
     <file path="/index.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364799325496" ignored="false" />
     <file path="/View.php" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364604020021" ignored="false" />
-    <file path="/Dummy.txt" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364803615265" ignored="false" />
+    <file path="/Dummy.txt" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364861752217" ignored="false" />
     <file path="/hello.html" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364586631687" ignored="false" />
     <file path="/teste.twig" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364598452852" ignored="false" />
     <file path="/a.dummy" changelist="bbd8d549-fed1-4ce0-a9bd-b21fdf02cea4" time="1364776789869" ignored="false" />
@@ -70,12 +72,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index_velho.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/index_velho.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="0" selection-start="114" selection-end="2561" vertical-scroll-proportion="-22.333334">
+              <folding>
+                <element signature="e#6#112#0" expanded="true" />
+                <element signature="e#273#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="-1.8551236">
+            <state line="24" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.6360424">
               <folding>
-                <element signature="e#273#307#0" expanded="true" />
+                <element signature="e#6#112#0" expanded="true" />
+                <element signature="e#117#151#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,10 +99,8 @@
       <file leaf-file-name="twig_obtect_to_template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.75">
-              <folding>
-                <element signature="e#6#112#0" expanded="true" />
-              </folding>
+            <state line="6" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,11 +108,8 @@
       <file leaf-file-name="TipoImovel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="425" selection-end="425" vertical-scroll-proportion="-11.875">
-              <folding>
-                <element signature="e#6#112#0" expanded="true" />
-                <element signature="e#275#335#0" expanded="true" />
-              </folding>
+            <state line="19" column="33" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +117,7 @@
       <file leaf-file-name="Proprietario.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Proprietario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.75">
+            <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +126,7 @@
       <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/Entities/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="2" column="19" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -125,7 +135,7 @@
       <file leaf-file-name="Contato.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Contato.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="8" column="28" selection-start="137" selection-end="143" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -134,7 +144,7 @@
       <file leaf-file-name="Endereco.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Endereco.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -483,34 +493,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="linguagens3_novo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="linguagens3_novo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="apps">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -543,22 +525,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linguagens3_novo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linguagens3_novo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="linguagens3_novo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="linguagens3_novo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="apps">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -568,13 +560,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="local_host_server" serverId="241a5425-05ce-457d-8515-cacc88df8a61">
     <servers>
@@ -687,7 +679,11 @@
       <created>1364803617181</created>
       <updated>1364803617181</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sofrendo com namespace parte 3">
+      <created>1364803649637</created>
+      <updated>1364803649637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -716,21 +712,21 @@
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12620027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6735254" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6735254" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23816356" sideWeight="0.87379974" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24175036" sideWeight="0.87379974" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -802,11 +798,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.8372433" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="44" selection-start="90" selection-end="90" vertical-scroll-proportion="0.09118541" />
@@ -814,39 +805,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.2385159">
-          <folding />
-        </state>
+        <state line="9" column="6" selection-start="244" selection-end="244" vertical-scroll-proportion="0.2385159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tools/basemodels.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="768" selection-end="768" vertical-scroll-proportion="0.51107323">
-          <folding />
-        </state>
+        <state line="29" column="28" selection-start="768" selection-end="768" vertical-scroll-proportion="0.51107323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6#260#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/yaml/Entities.User.dcm.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/Entities/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Endereco.php">
@@ -856,32 +830,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Contato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2279153">
-          <folding>
-            <element signature="e#1014#1050#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2279153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/OneToMany.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0795053">
-          <folding />
-        </state>
+        <state line="19" column="23" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0795053" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Proprietario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.75">
+        <state line="10" column="39" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/tools/sandbox/Entities/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/Contato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="137" selection-end="143" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
@@ -893,30 +882,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tools/twig_obtect_to_template.php">
+    <entry file="file://$PROJECT_DIR$/apps/index_velho.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.75">
+        <state line="120" column="0" selection-start="114" selection-end="2561" vertical-scroll-proportion="-22.333334">
           <folding>
             <element signature="e#6#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/imobiliaria/models/TipoImovel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="425" selection-end="425" vertical-scroll-proportion="-11.875">
-          <folding>
-            <element signature="e#6#112#0" expanded="true" />
-            <element signature="e#275#335#0" expanded="true" />
+            <element signature="e#273#307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="-1.8551236">
+        <state line="24" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.6360424">
           <folding>
-            <element signature="e#273#307#0" expanded="true" />
+            <element signature="e#6#112#0" expanded="true" />
+            <element signature="e#117#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
